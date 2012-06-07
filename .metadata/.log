@@ -17,3 +17,6 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2012-06-07 11:38:52.920
 !MESSAGE main.xml: "c" in attribute "layout_gravity" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-07 11:51:40.227
+!MESSAGE Failed to load properties file for project 'Teste'
