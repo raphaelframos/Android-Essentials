@@ -1,0 +1,19 @@
+!SESSION 2012-06-07 11:28:40.652 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_04
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /home/raphael/workspace/4Linux/Android-Essentials -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-07 11:30:14.157
+!MESSAGE Failed to load properties file for project 'HelloWorld'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-07 11:38:48.522
+!MESSAGE main.xml: "c" in attribute "layout_gravity" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-07 11:38:48.808
+!MESSAGE main.xml: "c" in attribute "layout_gravity" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-07 11:38:52.920
+!MESSAGE main.xml: "c" in attribute "layout_gravity" is not a valid value
