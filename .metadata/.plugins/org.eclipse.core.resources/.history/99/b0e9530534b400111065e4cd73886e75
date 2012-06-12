@@ -1,0 +1,25 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class FonteCustomizada extends Activity {
+    /** Called when the activity is first created. */
+	
+	private TextView textHello;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        TextView texto;
+        textHello = (TextView) findViewById(R.id.txtHello);
+        
+        Typeface typeFaceClaireHandRegular = Typeface.createFromAsset(getAssets(), "ClaireHandRegular.otf"
+);
+        txtHello.setTypeface(typeFaceClaireHandRegular);
+
+    }
+}
