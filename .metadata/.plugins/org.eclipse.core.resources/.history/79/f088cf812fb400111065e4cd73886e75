@@ -16,8 +16,6 @@ public class TestesdeMenu extends Activity {
     
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
-    	MenuInflater inflater = getMenuInflater();
-    	inflater.inflate(R.menu.menu_de_opcoes, menu);
-    	return true;
+    	MenuInflater menuInflater = getMenuInflater();
     }
 }
