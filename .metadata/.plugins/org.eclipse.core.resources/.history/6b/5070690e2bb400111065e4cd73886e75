@@ -25,7 +25,8 @@ public class TesteDeLayouts extends Activity {
         btnTeste.setOnClickListener(new OnClickListener() {
 			
         	public void onClick(View arg0) {
-				Toast.makeText(getApplicationContext(), edtTexto.getText(), Toast.LENGTH_LONG).show();
+				Toast.makeText(getApplicationContext(), "Clique!", Toast.LENGTH_LONG).show();
+				
 			}
 		});
     }

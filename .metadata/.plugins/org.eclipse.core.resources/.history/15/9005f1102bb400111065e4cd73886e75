@@ -26,6 +26,7 @@ public class TesteDeLayouts extends Activity {
 			
         	public void onClick(View arg0) {
 				Toast.makeText(getApplicationContext(), edtTexto.getText(), Toast.LENGTH_LONG).show();
+				
 			}
 		});
     }
