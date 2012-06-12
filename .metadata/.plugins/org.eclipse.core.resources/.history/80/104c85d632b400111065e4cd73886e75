@@ -32,12 +32,8 @@ public class TestesdeMenu extends Activity {
     	case R.id.item_dois:
     		Toast.makeText(this, "Item Dois", Toast.LENGTH_SHORT).show();
     		return true;
-    	case R.id.item_tres:
-    		Toast.makeText(this, "Item Tres", Toast.LENGTH_SHORT).show();
-    		return true;
-    	default:
-			return super.onOptionsItemSelected(item);
     	}
-		
+		return false;
+    	
     }
 }
