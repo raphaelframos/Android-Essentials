@@ -763,3 +763,6 @@ org.osgi.service.prefs.BackingStoreException: Exception loading preferences from
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-11 21:25:06.155
 !MESSAGE Failed to load properties file for project 'TesteDeLayouts'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-11 22:18:36.566
+!MESSAGE Failed to load properties file for project 'Testes de Menu'
