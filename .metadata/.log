@@ -769,3 +769,34 @@ org.osgi.service.prefs.BackingStoreException: Exception loading preferences from
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-11 23:06:30.297
 !MESSAGE Failed to load properties file for project 'FonteCustomizada'
+!SESSION 2012-06-13 20:24:48.918 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_04
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-06-13 20:25:24.843
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 2769 milliseconds.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-13 21:11:36.406
+!MESSAGE Failed to load properties file for project 'CicloDeVida'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-13 21:31:28.014
+!MESSAGE No command output when running: 'am start -n br.com.android/br.com.android.CicloDeVida -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5556
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:388)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:75)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1201)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.clientChanged(AndroidLaunchController.java:1556)
+	at com.android.ddmlib.AndroidDebugBridge.clientChanged(AndroidDebugBridge.java:884)
+	at com.android.ddmlib.Device.update(Device.java:541)
+	at com.android.ddmlib.Client.update(Client.java:836)
+	at com.android.ddmlib.HandleAppName.handleAPNM(HandleAppName.java:90)
+	at com.android.ddmlib.HandleAppName.handleChunk(HandleAppName.java:64)
+	at com.android.ddmlib.MonitorThread.callHandler(MonitorThread.java:414)
+	at com.android.ddmlib.MonitorThread.processClientActivity(MonitorThread.java:322)
+	at com.android.ddmlib.MonitorThread.run(MonitorThread.java:263)

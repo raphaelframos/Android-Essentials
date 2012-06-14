@@ -1,0 +1,20 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+
+public class CicloDeVida extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    protected void onDestroy(){
+    	super.onDestroy();
+    	Log.v("TAG", "onDestroy()");
+    }
+    
+    @Ov​erride protected void onPause() { 
+    	super.onPause(); ​
+    	Log.v("TAG", "onPause()"); 
+    } 
+    
+}

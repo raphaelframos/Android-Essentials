@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="43" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -22,7 +22,7 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="207" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -43,12 +43,12 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/HelloWorld/res/layout/main.xml" title="main.xml" tooltip="HelloWorld/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloWorld/res/layout/main.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FonteCustomizada.java" partName="FonteCustomizada.java" path="/home/raphael/workspace/4Linux/Android-Essentials/FonteCustomizada/src/br/com/android/FonteCustomizada.java" title="FonteCustomizada.java" tooltip="FonteCustomizada/src/br/com/android/FonteCustomizada.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="293" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" partName="HelloWorld.java" path="/home/raphael/workspace/4Linux/Android-Essentials/HelloWorld/src/br/com/android/HelloWorld.java" title="HelloWorld.java" tooltip="HelloWorld/src/br/com/android/HelloWorld.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/FonteCustomizada/res/layout/main.xml" title="main.xml" tooltip="FonteCustomizada/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FonteCustomizada/res/layout/main.xml"/>
 </editor>
 </editors>
 <views>
@@ -60,8 +60,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>
-<category IMemento.internal.id="Java Problems (1 item)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Java Problems (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="332" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -79,7 +78,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Warnings (4 items)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -126,9 +127,7 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">
-<sorter>
-<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
 <sort1 sortDirection="1" sortKey="RANK"/>
 <sort2 sortDirection="1" sortKey="DATE_CREATED"/>
 <sort3 sortDirection="1" sortKey="NONE"/>
@@ -145,7 +144,7 @@
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.ui.views.ContentOutline" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -217,31 +216,22 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@e32862" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e32862" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.69854134" ratioLeft="431" ratioRight="186" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
+<info folder="true" part="bottomRight" ratio="0.69854134" ratioLeft="431" ratioRight="186" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="Data Source Explorer"/>
@@ -252,8 +242,7 @@
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -262,12 +251,9 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="topRight" ratio="0.69920844" ratioLeft="530" ratioRight="228" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -370,8 +356,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24980666" ratioLeft="323" ratioRight="970" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.14341085" ratioLeft="185" ratioRight="1105" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.748056" ratioLeft="481" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -416,6 +402,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/HelloWorld/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/HelloWorld/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TesteDeLayouts/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TesteDeLayouts/src/br/com/android/TesteDeLayouts.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Testes de Menu/src/br/com/android/TestesdeMenu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Testes de Menu/res/menu/menu_de_opcoes.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Testes de Menu/gen/br/com/android/R.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Testes de Menu/res/menu/sds.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/FonteCustomizada/res/layout/main.xml"/>
 </editors>
 <item historyLabel="main.xml" index="0">
 <position info="not_deleted" x="1129" y="0"/>
@@ -426,7 +421,101 @@
 <item historyLabel="HelloWorld.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="main.xml" index="0"/>
+<item historyLabel="main.xml" index="0"/>
+<item historyLabel="HelloWorld.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="898" y="0"/>
+</item>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="853" y="1"/>
+</item>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="396" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="TesteDeLayouts.java" index="5">
+<position info="not_deleted" x="879" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="1177" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="R.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="sds.xml" index="9"/>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="517" y="0"/>
+</item>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="TestesdeMenu.java" index="6">
+<position info="not_deleted" x="668" y="498"/>
+</item>
+<item historyLabel="menu_de_opcoes.xml" index="7"/>
+<item historyLabel="sds.xml" index="9"/>
+<item historyLabel="FonteCustomizada.java" index="10">
+<position info="not_deleted" x="699" y="0"/>
+</item>
+<item historyLabel="main.xml" index="11"/>
+<item historyLabel="FonteCustomizada.java" index="10">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="main.xml" index="11"/>
+<item historyLabel="FonteCustomizada.java" index="10">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="main.xml" index="11"/>
+<item active="true" historyLabel="FonteCustomizada.java" index="10">
+<position info="not_deleted" x="271" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -445,6 +534,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="FonteCustomizada/res/layout/main.xml">
+<persistable path="/FonteCustomizada/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FonteCustomizada.java" tooltip="FonteCustomizada/src/br/com/android/FonteCustomizada.java">
+<persistable path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="sds.xml" tooltip="Testes de Menu/res/menu/sds.xml">
+<persistable path="/Testes de Menu/res/menu/sds.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="menu_de_opcoes.xml" tooltip="Testes de Menu/res/menu/menu_de_opcoes.xml">
+<persistable path="/Testes de Menu/res/menu/menu_de_opcoes.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="Testes de Menu/gen/br/com/android/R.java">
+<persistable path="/Testes de Menu/gen/br/com/android/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestesdeMenu.java" tooltip="Testes de Menu/src/br/com/android/TestesdeMenu.java">
+<persistable path="/Testes de Menu/src/br/com/android/TestesdeMenu.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesteDeLayouts.java" tooltip="TesteDeLayouts/src/br/com/android/TesteDeLayouts.java">
+<persistable path="/TesteDeLayouts/src/br/com/android/TesteDeLayouts.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="TesteDeLayouts/res/layout/main.xml">
+<persistable path="/TesteDeLayouts/res/layout/main.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="HelloWorld/src/br/com/android/HelloWorld.java">
 <persistable path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
 </file>

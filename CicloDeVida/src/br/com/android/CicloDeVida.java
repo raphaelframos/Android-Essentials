@@ -1,0 +1,51 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+
+public class CicloDeVida extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    protected void onDestroy(){
+    	super.onDestroy();
+    	Log.v("TAG", "onDestroy()");
+    }
+    
+    @Override
+    protected void onPause() { 
+    	super.onPause();
+    	Log.v("TAG", "onPause()");
+    	
+    } 
+    
+    protected void onResume() {
+		super.onResume();
+		Log.v("TAG", "onResume()");
+	}
+    
+    @Override
+    protected void onStart() { 
+    	super.onStart(); 
+    	Log.v("TAG", "onResume()"); 
+    	} 
+    
+    @Override
+    protected void onStop() { 
+    	super.onStop(); 
+    	Log.v("TAG", "onStop()"); 
+    	} 
+    
+    @Override 
+    protected void onRestart() { 
+    		super.onRestart();
+    		Log.v("TAG", "onRestart()"); 
+    		} 
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) { 
+    		super.onCreate(savedInstanceState);
+    		setContentView(R.layout.main);
+    		Log.v("TAG", "onCreate()");
+    }
+}
