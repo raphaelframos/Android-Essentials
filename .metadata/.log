@@ -806,3 +806,6 @@ com.android.ddmlib.ShellCommandUnresponsiveException
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-13 22:19:45.080
 !MESSAGE Failed to load properties file for project 'Services'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-13 23:00:41.820
+!MESSAGE Failed to load properties file for project 'BroadcastReceiver'
