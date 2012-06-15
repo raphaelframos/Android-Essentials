@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtRoot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Root:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do arquivo:" />
+
+    <EditText
+        android:id="@+id/edtNomeArq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="teste.txt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto do arquivo a ser salvo:" />
+
+    <EditText
+        android:id="@+id/edtSalvar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Escrever arquivo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arquivo lido:" />
+
+    <EditText
+        android:id="@+id/edtLer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="click_Salvar"
+            android:text="Salvar" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="click_Ler"
+            android:text="Abrir" />
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="click_Limpar"
+            android:text="Limpar" />
+    </LinearLayout>
+
+</LinearLayout>

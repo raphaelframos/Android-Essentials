@@ -809,3 +809,26 @@ com.android.ddmlib.ShellCommandUnresponsiveException
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-13 23:00:41.820
 !MESSAGE Failed to load properties file for project 'BroadcastReceiver'
+!SESSION 2012-06-14 20:57:02.690 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-14 21:08:51.309
+!MESSAGE Failed to load properties file for project 'TrabalhandoComArquivos'
+!SESSION 2012-06-14 21:33:30.785 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-14 21:56:14.952
+!MESSAGE Failed to load properties file for project 'SharedPreferences'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-14 22:18:36.197
+!MESSAGE Failed to load properties file for project 'PreferenciasAplicativo'

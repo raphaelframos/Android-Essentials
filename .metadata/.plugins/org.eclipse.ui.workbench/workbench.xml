@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="47" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="744" maximized="true" width="1024" x="65" y="24">
+<window height="744" maximized="true" width="1020" x="834" y="28">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -43,12 +43,12 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FonteCustomizada.java" partName="FonteCustomizada.java" path="/home/raphael/workspace/4Linux/Android-Essentials/FonteCustomizada/src/br/com/android/FonteCustomizada.java" title="FonteCustomizada.java" tooltip="FonteCustomizada/src/br/com/android/FonteCustomizada.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="293" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/TrabalhandoComArquivos/res/layout/main.xml" title="main.xml" tooltip="TrabalhandoComArquivos/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TrabalhandoComArquivos/res/layout/main.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/FonteCustomizada/res/layout/main.xml" title="main.xml" tooltip="FonteCustomizada/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FonteCustomizada/res/layout/main.xml"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TelaPrincipal.java" partName="TelaPrincipal.java" path="/home/raphael/workspace/4Linux/Android-Essentials/TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java" title="TelaPrincipal.java" tooltip="TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2878" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -57,6 +57,9 @@
 </view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
@@ -78,9 +81,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (4 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (12 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -333,7 +334,7 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -357,13 +358,14 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.14341085" ratioLeft="185" ratioRight="1105" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.748056" ratioLeft="481" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.66251945" ratioLeft="426" ratioRight="217" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -373,6 +375,7 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -383,13 +386,11 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.5" ratioLeft="242" ratioRight="242" relationship="4" relative="org.eclipse.ui.internal.ViewStack@107a2a0">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -399,122 +400,132 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/HelloWorld/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/HelloWorld/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TesteDeLayouts/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TesteDeLayouts/src/br/com/android/TesteDeLayouts.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Testes de Menu/src/br/com/android/TestesdeMenu.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Testes de Menu/res/menu/menu_de_opcoes.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Testes de Menu/gen/br/com/android/R.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Testes de Menu/res/menu/sds.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/FonteCustomizada/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/ExemploIntent/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ExemploIntent/src/br/com/android/PrimeiraTela.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ExemploIntent/src/br/com/android/SegundaTela.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ExemploIntent/res/layout/segunda_tela.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ExemploIntent/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Services/src/br/com/android/NossoServico.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Services/src/br/com/android/HelloIntentService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Services/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Services/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BroadcastReceiver/src/br/com/android/AirPlaneMode.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/BroadcastReceiver/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/BroadcastReceiver/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TrabalhandoComArquivos/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java"/>
 </editors>
-<item historyLabel="main.xml" index="0">
-<position info="not_deleted" x="1129" y="0"/>
+<item historyLabel="SegundaTela.java" index="2">
+<position/>
 </item>
-<item historyLabel="main.xml" index="1">
-<position info="not_deleted" x="1135" y="192"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="347" y="427"/>
 </item>
-<item historyLabel="HelloWorld.java" index="2">
+<item historyLabel="SegundaTela.java" index="2">
+<position/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="347" y="427"/>
+</item>
+<item historyLabel="SegundaTela.java" index="2">
+<position/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="347" y="427"/>
+</item>
+<item historyLabel="segunda_tela.xml" index="3">
+<position info="not_deleted" x="235" y="183"/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="347" y="427"/>
+</item>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="768" y="0"/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="SegundaTela.java" index="2">
+<position info="not_deleted" x="280" y="0"/>
+</item>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="ExemploIntent Manifest" index="0"/>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="749" y="0"/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="373" y="8"/>
+</item>
+<item historyLabel="ExemploIntent Manifest" index="0"/>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="373" y="8"/>
+</item>
+<item historyLabel="ExemploIntent Manifest" index="0"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="373" y="8"/>
+</item>
+<item historyLabel="SegundaTela.java" index="2">
+<position info="not_deleted" x="280" y="0"/>
+</item>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="373" y="8"/>
+</item>
+<item historyLabel="segunda_tela.xml" index="3"/>
+<item historyLabel="PrimeiraTela.java" index="1">
+<position info="not_deleted" x="373" y="8"/>
+</item>
+<item historyLabel="NossoServico.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.xml" index="0"/>
-<item historyLabel="HelloWorld.java" index="3">
+<item historyLabel="HelloIntentService.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="898" y="0"/>
-</item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="898" y="0"/>
-</item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="898" y="0"/>
-</item>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="831" y="0"/>
-</item>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="853" y="1"/>
-</item>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="396" y="0"/>
-</item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TesteDeLayouts.java" index="5">
-<position info="not_deleted" x="879" y="0"/>
-</item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TestesdeMenu.java" index="6">
+<item historyLabel="main.xml" index="7"/>
+<item historyLabel="HelloIntentService.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="HelloIntentService.java" index="6">
+<position info="not_deleted" x="750" y="0"/>
 </item>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="632" y="0"/>
+<item historyLabel="HelloIntentService.java" index="6">
+<position info="not_deleted" x="967" y="0"/>
 </item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="1177" y="0"/>
+<item historyLabel="NossoServico.java" index="5">
+<position info="not_deleted" x="378" y="0"/>
 </item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
+<item historyLabel="Services Manifest" index="8"/>
+<item historyLabel="NossoServico.java" index="5">
+<position info="not_deleted" x="812" y="0"/>
 </item>
-<item historyLabel="R.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Services Manifest" index="8"/>
+<item historyLabel="main.xml" index="7"/>
+<item historyLabel="AirPlaneMode.java" index="9">
+<position info="not_deleted" x="468" y="0"/>
 </item>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
+<item historyLabel="BroadcastReceiver Manifest" index="10"/>
+<item historyLabel="AirPlaneMode.java" index="9">
+<position info="not_deleted" x="487" y="0"/>
 </item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
+<item historyLabel="BroadcastReceiver Manifest" index="11"/>
+<item historyLabel="main.xml" index="12"/>
+<item historyLabel="TelaPrincipal.java" index="13">
+<position info="not_deleted" x="2878" y="0"/>
 </item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="sds.xml" index="9"/>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="517" y="0"/>
-</item>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="1159" y="0"/>
-</item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="TestesdeMenu.java" index="6">
-<position info="not_deleted" x="668" y="498"/>
-</item>
-<item historyLabel="menu_de_opcoes.xml" index="7"/>
-<item historyLabel="sds.xml" index="9"/>
-<item historyLabel="FonteCustomizada.java" index="10">
-<position info="not_deleted" x="699" y="0"/>
-</item>
-<item historyLabel="main.xml" index="11"/>
-<item historyLabel="FonteCustomizada.java" index="10">
-<position info="not_deleted" x="271" y="0"/>
-</item>
-<item historyLabel="main.xml" index="11"/>
-<item historyLabel="FonteCustomizada.java" index="10">
-<position info="not_deleted" x="271" y="0"/>
-</item>
-<item historyLabel="main.xml" index="11"/>
-<item active="true" historyLabel="FonteCustomizada.java" index="10">
-<position info="not_deleted" x="271" y="0"/>
+<item historyLabel="main.xml" index="12"/>
+<item active="true" historyLabel="TelaPrincipal.java" index="13">
+<position info="not_deleted" x="2878" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -534,35 +545,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TelaPrincipal.java" tooltip="TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java">
+<persistable path="/TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="TrabalhandoComArquivos/res/layout/main.xml">
+<persistable path="/TrabalhandoComArquivos/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AirPlaneMode.java" tooltip="BroadcastReceiver/src/br/com/android/AirPlaneMode.java">
+<persistable path="/BroadcastReceiver/src/br/com/android/AirPlaneMode.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="BroadcastReceiver/AndroidManifest.xml">
+<persistable path="/BroadcastReceiver/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Services/AndroidManifest.xml">
+<persistable path="/Services/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Services/res/layout/main.xml">
+<persistable path="/Services/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloIntentService.java" tooltip="Services/src/br/com/android/HelloIntentService.java">
+<persistable path="/Services/src/br/com/android/HelloIntentService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NossoServico.java" tooltip="Services/src/br/com/android/NossoServico.java">
+<persistable path="/Services/src/br/com/android/NossoServico.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="ExemploIntent/AndroidManifest.xml">
+<persistable path="/ExemploIntent/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SegundaTela.java" tooltip="ExemploIntent/src/br/com/android/SegundaTela.java">
+<persistable path="/ExemploIntent/src/br/com/android/SegundaTela.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="ExemploIntent/res/layout/main.xml">
+<persistable path="/ExemploIntent/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="segunda_tela.xml" tooltip="ExemploIntent/res/layout/segunda_tela.xml">
+<persistable path="/ExemploIntent/res/layout/segunda_tela.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrimeiraTela.java" tooltip="ExemploIntent/src/br/com/android/PrimeiraTela.java">
+<persistable path="/ExemploIntent/src/br/com/android/PrimeiraTela.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CicloDeVida.java" tooltip="CicloDeVida/src/br/com/android/CicloDeVida.java">
+<persistable path="/CicloDeVida/src/br/com/android/CicloDeVida.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="FonteCustomizada/res/layout/main.xml">
 <persistable path="/FonteCustomizada/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FonteCustomizada.java" tooltip="FonteCustomizada/src/br/com/android/FonteCustomizada.java">
-<persistable path="/FonteCustomizada/src/br/com/android/FonteCustomizada.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="sds.xml" tooltip="Testes de Menu/res/menu/sds.xml">
-<persistable path="/Testes de Menu/res/menu/sds.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="menu_de_opcoes.xml" tooltip="Testes de Menu/res/menu/menu_de_opcoes.xml">
-<persistable path="/Testes de Menu/res/menu/menu_de_opcoes.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="Testes de Menu/gen/br/com/android/R.java">
-<persistable path="/Testes de Menu/gen/br/com/android/R.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestesdeMenu.java" tooltip="Testes de Menu/src/br/com/android/TestesdeMenu.java">
-<persistable path="/Testes de Menu/src/br/com/android/TestesdeMenu.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesteDeLayouts.java" tooltip="TesteDeLayouts/src/br/com/android/TesteDeLayouts.java">
-<persistable path="/TesteDeLayouts/src/br/com/android/TesteDeLayouts.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="TesteDeLayouts/res/layout/main.xml">
-<persistable path="/TesteDeLayouts/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HelloWorld.java" tooltip="HelloWorld/src/br/com/android/HelloWorld.java">
-<persistable path="/HelloWorld/src/br/com/android/HelloWorld.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="HelloWorld/res/layout/main.xml">
-<persistable path="/HelloWorld/res/layout/main.xml"/>
 </file>
 </mruList>
 </workbench>
