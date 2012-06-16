@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class TelaPrincipal extends Activity {
+	
 	private TextView txtRoot;
 	private TextView txtNomeArq;
 	private TextView txtSalvar;

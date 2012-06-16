@@ -1,0 +1,20 @@
+package br.com.androd;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class Issue1 extends Activity {
+    /** Called when the activity is first created. */
+	
+	private Button btnFundo;
+	private Button btnBrowser;
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        btnFundo = (Button) findViewById(R.id.btnFundo);
+    }
+}
