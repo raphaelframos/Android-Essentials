@@ -19,6 +19,7 @@ public class Issue extends Activity {
 	private Button btnFundo;
 	private Button btnBrowser;
 	private Button btnImagem;
+	
 	private LinearLayout lnrLayout;
 	private AutoCompleteTextView edtLink;
 	
@@ -58,9 +59,11 @@ public class Issue extends Activity {
         btnImagem.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
-				setContentView(R.layout.exibe_imagem);
-				
+				startActivity(new Intent(Issue.this, Imagem.class));
 			}
 		});
+     
+        
+  
     }
 }

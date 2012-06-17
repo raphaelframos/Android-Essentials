@@ -7,6 +7,7 @@
 
     <Button
         android:id="@+id/btnFundo"
+        android:background="@drawable/ic_launcher"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Fundo" />
@@ -22,6 +23,7 @@
 
     <Button
         android:id="@+id/btnBrowser"
+        android:background="@drawable/ic_launcher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -29,6 +31,7 @@
 
    	 <Button
         android:id="@+id/btnImagem"
+        android:background="@drawable/ic_launcher"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Imagem" />

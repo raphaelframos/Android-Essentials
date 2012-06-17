@@ -1,0 +1,39 @@
+package br.com.androd;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+public class Imagem extends Activity{
+	
+	private Button btnMain;
+	private ImageButton imgBtnImg;
+	
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.exibe_imagem);
+        
+        btnMain = (Button) findViewById(R.id.btnMain);
+        imgBtnImg = (ImageButton) findViewById(R.id.imgBtnImg);
+        
+        btnMain.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				finish();
+			}
+		});
+        
+        imgBtnImg.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+
+}
