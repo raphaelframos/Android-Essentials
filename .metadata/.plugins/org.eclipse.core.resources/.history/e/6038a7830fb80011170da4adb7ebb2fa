@@ -27,10 +27,6 @@
         android:layout_gravity="center_horizontal"
         android:text="Browser" />
 
-   	 <Button
-        android:id="@+id/btnImagem"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Imagem" />
+   
 
 </LinearLayout>

@@ -54,13 +54,5 @@ public class Issue extends Activity {
 				startActivity(intent);
 			}
 		});
-        
-        btnImagem.setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View arg0) {
-				setContentView(R.layout.exibe_imagem);
-				
-			}
-		});
     }
 }

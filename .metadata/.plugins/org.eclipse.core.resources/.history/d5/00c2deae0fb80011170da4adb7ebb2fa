@@ -58,9 +58,9 @@ public class Issue extends Activity {
         btnImagem.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
-				setContentView(R.layout.exibe_imagem);
+				// TODO Auto-generated method stub
 				
 			}
-		});
+		})
     }
 }

@@ -18,7 +18,6 @@ public class Issue extends Activity {
 	
 	private Button btnFundo;
 	private Button btnBrowser;
-	private Button btnImagem;
 	private LinearLayout lnrLayout;
 	private AutoCompleteTextView edtLink;
 	
@@ -31,7 +30,6 @@ public class Issue extends Activity {
         lnrLayout = (LinearLayout) findViewById(R.id.linearLayout);
         btnBrowser = (Button) findViewById(R.id.btnBrowser);
         edtLink = (AutoCompleteTextView) findViewById(R.id.autoLink); 
-        btnImagem = (Button) findViewById(R.id.btnImagem);
         
         btnFundo.setOnClickListener(new OnClickListener() {
 			
@@ -52,14 +50,6 @@ public class Issue extends Activity {
 				
 				final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(link));
 				startActivity(intent);
-			}
-		});
-        
-        btnImagem.setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View arg0) {
-				setContentView(R.layout.exibe_imagem);
-				
 			}
 		});
     }
