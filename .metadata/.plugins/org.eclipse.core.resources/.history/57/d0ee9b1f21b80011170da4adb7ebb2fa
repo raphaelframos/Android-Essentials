@@ -61,7 +61,6 @@ public class Issue extends Activity {
         btnBrowser.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
-				media.start();
 				String link = edtLink.getText().toString();
 				
 				final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(link));
@@ -72,7 +71,6 @@ public class Issue extends Activity {
         btnImagem.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
-				media.start();
 				startActivity(new Intent(Issue.this, Imagem.class));
 			}
 		});
@@ -80,7 +78,6 @@ public class Issue extends Activity {
         btnSomaNumero.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v) {
-				media.start();
 				int soma = 0;
 				Intent it = new Intent(Issue.this, SomaNumero.class);
 				startActivityForResult(it, soma);

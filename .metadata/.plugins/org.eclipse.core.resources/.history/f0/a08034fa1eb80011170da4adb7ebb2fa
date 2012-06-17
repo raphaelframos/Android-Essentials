@@ -10,7 +10,6 @@
         android:background="@drawable/ic_launcher"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:soundEffectsEnabled="true"
         android:text="Fundo" />
 
     <AutoCompleteTextView

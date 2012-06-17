@@ -72,7 +72,6 @@ public class Issue extends Activity {
         btnImagem.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
-				media.start();
 				startActivity(new Intent(Issue.this, Imagem.class));
 			}
 		});
