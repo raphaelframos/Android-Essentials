@@ -1,0 +1,18 @@
+package br.com.androd;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.EditText;
+
+public class SomaNumero extends Activity{
+	
+	private EditText numero1;
+	private EditText numero2;
+	
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.soma);
+	}
+
+}

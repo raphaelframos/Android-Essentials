@@ -1,0 +1,26 @@
+package br.com.androd;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class SomaNumero extends Activity{
+	
+	private EditText numero1;
+	private EditText numero2;
+	private Button btnSoma;
+	
+	@Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.soma);
+        
+        numero1 = (EditText) findViewById(R.id.editText1);
+        numero2 = (EditText) findViewById(R.id.editText2);
+        btnSoma = (Button) findViewById(R.id.btnSoma)
+        
+        
+	}
+
+}

@@ -36,4 +36,18 @@
         android:layout_height="wrap_content"
         android:text="Imagem" />
 
+   	 <Button
+   	     android:id="@+id/btnSomaNumero"
+   	     android:background="@drawable/ic_launcher"
+   	     android:layout_width="fill_parent"
+   	     android:layout_height="wrap_content"
+   	     android:text="Soma Numero" />
+
+   	 <TextView
+   	     android:id="@+id/txtResultado"
+   	     android:layout_gravity="center_horizontal"
+   	     android:layout_width="fill_parent"
+   	     android:layout_height="wrap_content"
+   	     android:text="" />
+
 </LinearLayout>

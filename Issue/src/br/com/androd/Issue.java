@@ -13,15 +13,20 @@ import android.view.View.OnClickListener;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class Issue extends Activity {
 	
 	private Button btnFundo;
 	private Button btnBrowser;
 	private Button btnImagem;
+	private Button btnSomaNumero;
 	
 	private LinearLayout lnrLayout;
 	private AutoCompleteTextView edtLink;
+	
+	private TextView txtResultado;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -33,7 +38,9 @@ public class Issue extends Activity {
         btnBrowser = (Button) findViewById(R.id.btnBrowser);
         edtLink = (AutoCompleteTextView) findViewById(R.id.autoLink); 
         btnImagem = (Button) findViewById(R.id.btnImagem);
-        
+        btnSomaNumero = (Button) findViewById(R.id.btnSomaNumero);
+        txtResultado = (TextView) findViewById(R.id.txtResultado);
+         
         btnFundo.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View arg0) {
@@ -63,7 +70,22 @@ public class Issue extends Activity {
 			}
 		});
      
-        
+        btnSomaNumero.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				int soma = 0;
+				Intent it = new Intent(Issue.this, SomaNumero.class);
+				startActivityForResult(it, soma);
+			}
+		});
   
+    }
+    
+    @Override
+    protected void onActivityResult(int codigo, int resultado, Intent it){
+    	
+    	Integer soma = it.getExtras().getInt("soma");
+    	txtResultado.setText("Resultado: " + soma);
+    	
     }
 }
