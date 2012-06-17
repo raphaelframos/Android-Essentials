@@ -1092,3 +1092,12 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/Issue1' does n
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2012-06-16 21:36:54.789
 !MESSAGE Resource '/Issue1' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-16 23:40:15.211
+!MESSAGE main.xml: Dimension "5" in attribute "layout_marginRight" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-16 23:40:22.807
+!MESSAGE main.xml: Dimension "5" in attribute "layout_marginRight" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-16 23:40:23.071
+!MESSAGE main.xml: Dimension "5" in attribute "layout_marginRight" is missing unit!

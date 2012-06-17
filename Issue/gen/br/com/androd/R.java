@@ -15,20 +15,20 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int autoLink=0x7f060004;
-        public static final int btnBrowser=0x7f060005;
+        public static final int autoLink=0x7f060005;
+        public static final int btnBrowser=0x7f060007;
         public static final int btnFundo=0x7f060003;
-        public static final int btnImagem=0x7f060006;
+        public static final int btnImagem=0x7f060004;
         public static final int btnMain=0x7f060001;
         public static final int btnSoma=0x7f06000d;
-        public static final int btnSomaNumero=0x7f060007;
+        public static final int btnSomaNumero=0x7f060008;
         public static final int editText1=0x7f06000a;
         public static final int editText2=0x7f06000c;
         public static final int imgBtnImg=0x7f060000;
         public static final int linearLayout=0x7f060002;
         public static final int txtNum1=0x7f060009;
         public static final int txtNum2=0x7f06000b;
-        public static final int txtResultado=0x7f060008;
+        public static final int txtResultado=0x7f060006;
     }
     public static final class layout {
         public static final int exibe_imagem=0x7f030000;
