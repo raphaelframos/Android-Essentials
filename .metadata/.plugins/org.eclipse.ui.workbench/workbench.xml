@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="31" version="2.0">
+<workbench progressCount="47" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1020" x="834" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -22,11 +22,11 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,21 +38,12 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Issue1.java" partName="Issue1.java" path="/home/raphael/workspace/4Linux/Android-Essentials/Issue1/src/br/com/androd/Issue1.java" title="Issue1.java" tooltip="Issue1/src/br/com/androd/Issue1.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Issue1/src/br/com/androd/Issue1.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1444" selectionTopPixel="383"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/Issue1/res/layout/main.xml" title="main.xml" tooltip="Issue1/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Issue1/res/layout/main.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Issue1 Manifest" path="/home/raphael/workspace/4Linux/Android-Essentials/Issue1/AndroidManifest.xml" title="Issue1 Manifest" tooltip="Issue1/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Issue1/AndroidManifest.xml"/>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exibe_imagem.xml" partName="exibe_imagem.xml" path="/home/raphael/workspace/4Linux/Android-Essentials/Issue/res/layout/exibe_imagem.xml" title="exibe_imagem.xml" tooltip="Issue/res/layout/exibe_imagem.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Issue/res/layout/exibe_imagem.xml"/>
 </editor>
 </editors>
 <views>
@@ -96,12 +87,7 @@
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (32 items)"/>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="261" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="383" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -171,7 +157,7 @@
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.manifest.ManifestEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -384,7 +370,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.14341085" ratioLeft="185" ratioRight="1105" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67651635" ratioLeft="435" ratioRight="208" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.71073097" ratioLeft="457" ratioRight="186" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -512,121 +498,129 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreferenciasAplicativo/src/br/com/android/TelaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreferenciasAplicativo/src/br/com/android/PrefsActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/PreferenciasAplicativo/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/PreferenciasAplicativo/src/br/com/android/PrefsActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/PreferenciasAplicativo/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TrabalhandoComArquivos/src/br/com/android/TelaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SharedPreferences/src/br/com/android/TelaPrincipal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Issue1/src/br/com/androd/Issue1.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Issue1/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Issue1/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Issue/src/br/com/androd/Issue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Issue/src/br/com/androd/SomaNumero.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Issue/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Issue/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Issue/src/br/com/androd/Issue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Issue/res/layout/exibe_imagem.xml"/>
 </editors>
-<item historyLabel="PrefsActivity.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TelaPrincipal.java" index="0">
-<position info="not_deleted" x="415" y="0"/>
-</item>
-<item historyLabel="PreferenciasAplicativo Manifest" index="2"/>
-<item historyLabel="TelaPrincipal.java" index="0">
-<position info="not_deleted" x="1348" y="0"/>
-</item>
-<item historyLabel="PrefsActivity.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.xml" index="4"/>
-<item historyLabel="TelaPrincipal.java" index="5">
-<position info="not_deleted" x="2827" y="0"/>
-</item>
-<item historyLabel="TelaPrincipal.java" index="6">
-<position info="not_deleted" x="1435" y="0"/>
-</item>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1183" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1183" y="0"/>
-</item>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1103" y="0"/>
-</item>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="956" y="0"/>
-</item>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="21" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1099" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
+<item historyLabel="Issue.java" index="0">
 <position/>
 </item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1059" y="0"/>
+</item>
+<item historyLabel="Issue.java" index="0">
 <position/>
 </item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1704" y="0"/>
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1114" y="0"/>
 </item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1692" y="0"/>
-</item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1524" y="0"/>
-</item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1698" y="0"/>
-</item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1402" y="0"/>
-</item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="Issue1.java" index="7">
+<item historyLabel="Issue.java" index="0">
 <position/>
 </item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1657" y="0"/>
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1109" y="0"/>
 </item>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1551" y="0"/>
+<item historyLabel="Issue.java" index="0">
+<position/>
 </item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1551" y="0"/>
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1087" y="0"/>
 </item>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="main.xml" index="8"/>
-<item historyLabel="Issue1 Manifest" index="9"/>
-<item historyLabel="Issue1.java" index="7">
-<position info="not_deleted" x="1444" y="0"/>
+<item historyLabel="Issue.java" index="0">
+<position/>
 </item>
-<item active="true" historyLabel="Issue1 Manifest" index="9"/>
+<item historyLabel="main.xml" index="2"/>
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1087" y="0"/>
+</item>
+<item historyLabel="Issue.java" index="0">
+<position/>
+</item>
+<item historyLabel="SomaNumero.java" index="1">
+<position info="not_deleted" x="1087" y="0"/>
+</item>
+<item historyLabel="Issue.java" index="0">
+<position/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="2427" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3">
+<position/>
+</item>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="0">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="816" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3">
+<position info="not_deleted" x="2414" y="730"/>
+</item>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="1200" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="1200" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="1200" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="1463" y="0"/>
+</item>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Issue.java" index="4">
+<position info="not_deleted" x="1463" y="0"/>
+</item>
+<item active="true" historyLabel="exibe_imagem.xml" index="5"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -645,6 +639,33 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="exibe_imagem.xml" tooltip="Issue/res/layout/exibe_imagem.xml">
+<persistable path="/Issue/res/layout/exibe_imagem.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Issue.java" tooltip="Issue/src/br/com/androd/Issue.java">
+<persistable path="/Issue/src/br/com/androd/Issue.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Issue/res/layout/main.xml">
+<persistable path="/Issue/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="soma.xml" tooltip="Issue/res/layout/soma.xml">
+<persistable path="/Issue/res/layout/soma.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Issue/AndroidManifest.xml">
+<persistable path="/Issue/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SomaNumero.java" tooltip="Issue/src/br/com/androd/SomaNumero.java">
+<persistable path="/Issue/src/br/com/androd/SomaNumero.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Imagem.java" tooltip="Issue/src/br/com/androd/Imagem.java">
+<persistable path="/Issue/src/br/com/androd/Imagem.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Issue/res/values/strings.xml">
+<persistable path="/Issue/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Issue1.java" tooltip="Issue/src/br/com/androd/Issue1.java">
+<persistable path="/Issue/src/br/com/androd/Issue1.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Issue1/AndroidManifest.xml">
 <persistable path="/Issue1/AndroidManifest.xml"/>
 </file>
@@ -662,33 +683,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="PreferenciasAplicativo/AndroidManifest.xml">
 <persistable path="/PreferenciasAplicativo/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="PreferenciasAplicativo/res/layout/main.xml">
-<persistable path="/PreferenciasAplicativo/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrefsActivity.java" tooltip="PreferenciasAplicativo/src/br/com/android/PrefsActivity.java">
-<persistable path="/PreferenciasAplicativo/src/br/com/android/PrefsActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TelaPrincipal.java" tooltip="PreferenciasAplicativo/src/br/com/android/TelaPrincipal.java">
-<persistable path="/PreferenciasAplicativo/src/br/com/android/TelaPrincipal.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="prefs.xml" tooltip="PreferenciasAplicativo/res/layout/prefs.xml">
-<persistable path="/PreferenciasAplicativo/res/layout/prefs.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="array.xml" tooltip="PreferenciasAplicativo/res/values/array.xml">
-<persistable path="/PreferenciasAplicativo/res/values/array.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="SharedPreferences/res/layout/main.xml">
-<persistable path="/SharedPreferences/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="TrabalhandoComArquivos/AndroidManifest.xml">
-<persistable path="/TrabalhandoComArquivos/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="TrabalhandoComArquivos/res/layout/main.xml">
-<persistable path="/TrabalhandoComArquivos/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AirPlaneMode.java" tooltip="BroadcastReceiver/src/br/com/android/AirPlaneMode.java">
-<persistable path="/BroadcastReceiver/src/br/com/android/AirPlaneMode.java"/>
 </file>
 </mruList>
 </workbench>

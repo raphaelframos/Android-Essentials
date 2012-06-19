@@ -1,0 +1,65 @@
+package br.com.android;
+
+import java.util.List;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+
+public class AndroidSQLite extends Activity {
+    /** Called when the activity is first created. */
+	
+	private EditText nome;
+	private EditText telefone;
+	private Button btnAdd;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.adiciona);
+        
+        nome = (EditText) findViewById(R.id.editTextNome);
+        telefone = (EditText) findViewById(R.id.editTextTel);
+        
+        btnAdd.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+			}
+		})
+        
+      //Aqui instanciamos a nossa Classe Responsavel pelos atividades do Banco
+      		DatabaseHandler db = new DatabaseHandler(this);
+      		
+      		
+
+      		/**
+      		 * Operações CRUD
+      		 
+      		
+      		// Inserindo Contatos
+      		Log.d("Inserir: ", "Inserindo ..");
+      		db.addContact(new Contato("Marcio Pivoto", "8116-0560"));
+      		db.addContact(new Contato("Natasha Silva", "9523-9587"));
+      		db.addContact(new Contato("Juliana Bastos", "8625-9654"));
+      		db.addContact(new Contato("Daniel Netto", "9632-9587"));
+      		
+
+      		// Listando todos os Contatos
+      		Log.d("Listar: ", "Listando todos os Contatos..");
+      		List<Contato> contacts = db.getAllContacts();
+
+      		// simples for para ir pegando os dados dos contatos enquanto eles exixtirem
+      		for (Contato cn : contacts) {
+      			String log = "Id: " + cn.getID() + " ,Nome: " + cn.getName()+ " ,Telefone: " + cn.getPhoneNumber();
+      			
+      			// Mandando os contatos para o Log
+      			Log.d("Dados: ", log);
+      		}
+      		* */
+      	}
+      }

@@ -1101,3 +1101,19 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/Issue1' does n
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-16 23:40:23.071
 !MESSAGE main.xml: Dimension "5" in attribute "layout_marginRight" is missing unit!
+!SESSION 2012-06-18 21:00:13.245 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-06-18 21:00:44.208
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 7540 milliseconds.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-18 21:19:41.620
+!MESSAGE Failed to load properties file for project 'ContentProviders'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-18 21:49:04.894
+!MESSAGE Failed to load properties file for project 'BancoDeDados'

@@ -3,9 +3,16 @@
     android:id="@+id/linearLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:weightSum="1"
     android:orientation="vertical" >
 
-    <RelativeLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.4"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
         
@@ -25,44 +32,68 @@
             android:layout_alignParentRight="true"
             android:text="Imagem" />
     </RelativeLayout>
-        
-        <AutoCompleteTextView
-        android:id="@+id/autoLink"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="http://www.globo.com" >
 
-        <requestFocus />
-    </AutoCompleteTextView>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="vertical" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        
+             <AutoCompleteTextView
+        		android:id="@+id/autoLink"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="http://www.globo.com" >
+
+        	<requestFocus />
+    		</AutoCompleteTextView>
     
         <TextView
    	     android:id="@+id/txtResultado"
-   	     android:layout_gravity="center"
+   	     android:layout_below="@+id/autoLink"
+   	     android:layout_centerHorizontal="true"
    	     android:layout_width="wrap_content"
    	     android:layout_height="wrap_content"
    	     android:text="" />
-   
-
-    
-
-    <Button
+            
+        </RelativeLayout>
+    </LinearLayout>
+        
+    <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:orientation="horizontal" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+        
+            <Button
         android:id="@+id/btnBrowser"
         android:background="@drawable/ic_launcher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:text="Browser" />
-
-   	 
 
    	 <Button
    	     android:id="@+id/btnSomaNumero"
    	     android:background="@drawable/ic_launcher"
    	     android:layout_width="wrap_content"
+   	     android:layout_toRightOf="@+id/btnBrowser"
    	     android:layout_height="wrap_content"
-   	     android:layout_gravity="center_horizontal"
    	     android:text="Soma Numero" />
-
-   	 
-
+            
+        </RelativeLayout>
+        
+        
+    </LinearLayout>
+            
 </LinearLayout>
