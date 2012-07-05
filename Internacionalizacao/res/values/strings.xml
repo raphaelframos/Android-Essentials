@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Internac_StringsActivity!</string>
+    <string name="app_name">Nome do Aplicativo</string>
+    <string name="qualquer_lingua">Este texto pode ser escrito em qualquer lingua</string>
+    <string name="texto_botao">Botão que chama janela de diálogo</string>
+    <string name="titulo_dialogo">Alerta</string>
+    <string name="texto_dialogo">Este texto tambem pode ser traduzido</string>
+    <string name="minha_string">Qualquer coisa que eu quizer que apareça nos meus componentes</string>
+
+</resources>

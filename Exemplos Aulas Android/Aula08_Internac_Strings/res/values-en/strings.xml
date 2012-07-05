@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Internac_StringsActivity!</string>
+    <string name="app_name">Application Name</string>
+    <string name="qualquer_lingua">This text can be written in any language</string>
+    <string name="texto_botao">Button that calls the dialog box</string>
+    <string name="titulo_dialogo">Warning</string>
+    <string name="texto_dialogo">This text can also be translated</string>
+
+</resources>

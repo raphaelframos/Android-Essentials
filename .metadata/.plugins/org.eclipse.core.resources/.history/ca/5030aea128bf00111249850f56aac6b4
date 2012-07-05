@@ -1,0 +1,18 @@
+package br.com.android;
+
+import com.google.android.maps.OverlayItem;
+
+import android.graphics.drawable.Drawable;
+
+public class HelloItemizedOverlay {
+
+	public HelloItemizedOverlay(Drawable drawable, GoogleMaps googleMaps) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void addOverlay(OverlayItem overlayitem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

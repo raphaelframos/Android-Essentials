@@ -1117,3 +1117,117 @@ Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.pa
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-06-18 21:49:04.894
 !MESSAGE Failed to load properties file for project 'BancoDeDados'
+!SESSION 2012-06-21 21:05:59.945 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /home/raphael/workspace/4Linux/Android-Essentials -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-21 21:07:22.611
+!MESSAGE Failed to load properties file for project 'Listas'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-21 21:28:59.290
+!MESSAGE Failed to load properties file for project 'Acelerometro'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-21 21:45:25.508
+!MESSAGE Failed to load properties file for project 'GPS'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2012-06-21 21:50:26.655
+!MESSAGE No valid Android XML Editor Delegate found for file /GPS/AndroidManifest.out.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-21 22:17:59.500
+!MESSAGE Failed to load properties file for project 'Vibracao'
+!SESSION 2012-06-25 20:57:35.635 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /home/raphael/workspace/4Linux/Android-Essentials -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-06-25 20:57:56.477
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 6176 milliseconds.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-25 21:27:19.881
+!MESSAGE Failed to load properties file for project 'Mapa'
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2012-06-25 22:03:07.383
+!MESSAGE No valid Android XML Editor Delegate found for file /Mapa/AndroidManifest.out.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-25 22:14:38.303
+!MESSAGE Failed to load properties file for project 'MinhaLocalizacao'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-25 22:40:14.064
+!MESSAGE Failed to load properties file for project 'Widgets'
+!SESSION 2012-06-27 21:03:52.305 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /home/raphael/workspace/4Linux/Android-Essentials -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 21:05:47.975
+!MESSAGE Failed to load properties file for project 'Internacionalizacao'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 21:26:25.715
+!MESSAGE No command output when running: 'am start -n br.com.android/br.com.android.InternacionalizacaoActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device I55000e270a93
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:388)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:75)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1201)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:877)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$4(AndroidLaunchController.java:861)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(AndroidLaunchController.java:709)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 21:48:31.851
+!MESSAGE Failed to load properties file for project 'PlayerMp3'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 22:13:01.904
+!MESSAGE Failed to load properties file for project 'PlayerVideo'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 22:22:51.221
+!MESSAGE No command output when running: 'am start -n br.com.android/br.com.android.PlayerVideoActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device I55000e270a93
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:388)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:75)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1201)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:877)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$4(AndroidLaunchController.java:861)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(AndroidLaunchController.java:709)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 22:28:04.134
+!MESSAGE Failed to load properties file for project 'RecordSound'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-27 22:31:27.248
+!MESSAGE main.xml: Couldn't resolve resource @string/app_info
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-27 22:31:27.258
+!MESSAGE main.xml: Couldn't resolve resource @string/start_recording
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-06-27 22:31:27.262
+!MESSAGE main.xml: Couldn't resolve resource @string/stop_recording
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 23:00:59.833
+!MESSAGE Failed to load properties file for project 'RecordVideo'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 23:02:15.051
+!MESSAGE No command output when running: 'am start -n br.com.android/br.com.android.RecordVideoActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device I55000e270a93
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:388)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:75)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1201)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:877)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.access$4(AndroidLaunchController.java:861)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController$3.run(AndroidLaunchController.java:709)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-06-27 23:22:33.013
+!MESSAGE Failed to load properties file for project 'Text-To-Speech'

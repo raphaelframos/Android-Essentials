@@ -1,0 +1,7 @@
+package br.com.android;
+
+import com.google.android.maps.MyLocationOverlay;
+
+public class CamadaMinhaPosicao extends MyLocationOverlay {
+
+}

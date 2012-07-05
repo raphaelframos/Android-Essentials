@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_info">Aplicação simples para gravação de audio.\n\nPara gravar pressione o botão \"Gravar\", para parar pressione o botão \"Parar\".</string>
+    <string name="app_name">Audio Recorder</string>
+    <string name="choose_format_title">Escolha o formato do Audio</string>
+    <string name="start_recording">Gravar</string>
+    <string name="stop_recording">Parar</string>
+    <string name="audio_format">Formato</string>
+
+</resources>

@@ -1,0 +1,76 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class TextToSpeechActivity extends Activity implements TextToSpeech.OnInitListener {
+
+	// objeto Text-to-speach
+	private TextToSpeech tts;
+
+	private Button btnSpeak;
+	private EditText txtText;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+
+		tts = new TextToSpeech(this, this);
+
+		btnSpeak = (Button) findViewById(R.id.btnSpeak);
+
+		txtText = (EditText) findViewById(R.id.txtText);
+
+		btnSpeak.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				// chama o método que cuida da fala
+				speakOut();
+			}
+
+		});
+	}
+
+	
+	@Override
+	public void onDestroy() {
+		// Fecha o tts
+		if (tts != null) {
+			tts.stop();
+			tts.shutdown();
+		}
+		super.onDestroy();
+	}
+
+	@Override
+	public void onInit(int status) {
+
+		if (status == TextToSpeech.SUCCESS) {
+			
+			//aqui decidimos qual a lingua padrão da fala, esquecam não tem portugues
+			int result = tts.setLanguage(Locale.US);
+
+			if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+				Log.e("TTS", "Esta Lingua não é suportada");
+			} else {
+				btnSpeak.setEnabled(true);
+				speakOut();
+			}
+
+		} else {
+			Log.e("TTS", "Erro na Inicialização");
+		}
+
+	}
+	
+	
+	
+	//método que converte o texto em fala
+	private void speakOut() {
+		String text = txtText.getText().toString();
+		tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+	}
+}
+

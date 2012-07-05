@@ -1,0 +1,39 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class PlayerMp3Activity extends Activity {
+    
+	//objeto que controla a reprodução do audio
+		MediaPlayer mediaPlayer;
+		Button buttonPlayPause, buttonQuit;
+		TextView textState;
+		
+		private int stateMediaPlayer;
+		private final int stateMP_Error = 0;
+		private final int stateMP_NotStarter = 1;
+		private final int stateMP_Playing = 2;
+		private final int stateMP_Pausing = 3;
+		
+	    /** Called when the activity is first created. */
+	    @Override
+	    public void onCreate(Bundle savedInstanceState) {
+	        super.onCreate(savedInstanceState);
+	        setContentView(R.layout.main);
+	        
+	        buttonPlayPause = (Button)findViewById(R.id.playpause);
+	        buttonQuit = (Button)findViewById(R.id.quit);
+	        textState = (TextView)findViewById(R.id.state);
+	        
+	        buttonPlayPause.setOnClickListener(buttonPlayPauseOnClickListener);
+	        buttonQuit.setOnClickListener(buttonQuitOnClickListener);
+	        
+	        //chamando o método que inicia o player de musica
+	        initMediaPlayer();
+	        
+	    }
+	    

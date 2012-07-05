@@ -1,0 +1,11 @@
+package br.com.android;
+
+import android.graphics.drawable.Drawable;
+
+public class HelloItemizedOverlay {
+
+	public HelloItemizedOverlay(Drawable drawable, GoogleMaps googleMaps) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

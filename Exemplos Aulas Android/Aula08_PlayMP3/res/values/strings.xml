@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PlayMP3Activity!</string>
+    <string name="app_name">Aula08_PlayMP3</string>
+
+</resources>

@@ -1,0 +1,37 @@
+package br.com.android;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class InternacionalizacaoActivity extends Activity {
+    /** Called when the activity is first created. */
+	
+	private Button botao;
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		setContentView(R.layout.main);
+
+		botao = (Button) findViewById(R.id.button1);
+
+		botao.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				//objeto que pega a string
+				Resources res = getResources();
+				AlertDialog.Builder dialog = new AlertDialog.Builder(InternacionalizacaoActivity.this);
+				dialog.setMessage(res.getString(R.string.texto_dialogo));
+				dialog.setNeutralButton("OK", null);
+				dialog.setTitle(res.getString(R.string.titulo_dialogo));
+				dialog.show();
+
+			}
+		});
+	}
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PrimeiraTela!</string>
+    <string name="app_name">ExemploIntent</string>
+    <string name="msg">Está é a segunda tela</string>
+    <string name="callButton">Chamar a Segunda Tela</string>
+
+</resources>
